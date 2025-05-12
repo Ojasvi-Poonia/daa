@@ -1,22 +1,34 @@
-// pages/index.js
+// app/page.js
 export default function Home() {
   return (
     <div
       style={{
-        padding: "40px",
-        fontFamily: "sans-serif",
-        maxWidth: "800px",
-        margin: "0 auto",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        minHeight: "100vh",
+        padding: "20px",
+        textAlign: "center",
       }}
     >
-      <h1>DAA Java Files</h1>
-      <p>This site hosts Java files for algorithm implementations.</p>
-      <p>Access files directly using URLs like:</p>
-      <code>https://daa.vercel.app/dijkstra.java</code>
-
-      <p style={{ marginTop: "40px", color: "#666" }}>
-        Direct directory browsing is disabled for security reasons.
-      </p>
+      <div style={{ maxWidth: "600px" }}>
+        <h1
+          style={{
+            fontWeight: "normal",
+            color: "#444",
+            marginBottom: "20px",
+          }}
+        ></h1>
+        <p
+          style={{
+            color: "#666",
+            lineHeight: "1.6",
+            fontSize: "16px",
+          }}
+        >
+          <br />
+        </p>
+      </div>
     </div>
   );
 }
